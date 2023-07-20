@@ -5,8 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/jjhl.js
-
+^https:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/lovemarszy/Surge/main/JavaScript/jjhl.js
 [mitm]
 hostname = explorer.tratao.com
 
