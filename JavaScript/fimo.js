@@ -5,7 +5,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/server\.(yoyiapp|zbisq)\.com url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/fimo.js
+^https:\/\/server\.(yoyiapp|zbisq)\.com url script-response-body https://raw.githubusercontent.com/lovemarszy/Surge/main/JavaScript/fimo.js
 
 [mitm]
 hostname = server.*.com
