@@ -2,10 +2,11 @@
 使用声明：此脚本仅供学习
 
 *******************************
+*******************************
 
 [rewrite_local]
 
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/lovemarszy/Surge/main/JavaScript/mdsz.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/mdsz.js
 
 
 [MITM]
@@ -28,8 +29,8 @@ py996.subscriber.subscriptions = {
     "expires_date": "9999-09-09T09:09:09Z",
     "original_purchase_date": "2023-02-23T02:33:33Z",
     "purchase_date": "9999-09-09T09:09:09Z",
-    "ownership_type": "PURCHASED",
-    "store": "app_store"
+    "ownership_type" : "PURCHASED",
+    "store" : "app_store"
   }
 };
 $done({ body: JSON.stringify(py996) });
